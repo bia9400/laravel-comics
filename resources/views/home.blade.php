@@ -14,7 +14,7 @@
             <div class="row row-cols-6 py-5">
 
                 @foreach ($fumetti as $fumetto)
-                    <div>
+                    <div class="col">
                         @include('partials.card')
                         
                     </div>
