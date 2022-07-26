@@ -1,0 +1,84 @@
+li {
+  list-style: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+li a:hover {
+  border-bottom: 2px solid #0282f9;
+}
+
+.jumbo {
+  height: 500px;
+  overflow: hidden;
+}
+
+.jumbo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.myBanner {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.myBanner img {
+  width: 100%;
+}
+
+.current-series {
+  background-color: #0282f9;
+  position: absolute;
+  top: 0;
+  transform: translate(-5%, -50%);
+  padding: 0.6rem 2rem;
+}
+
+.current-series h3 {
+  margin: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.logoContainer {
+  color: white;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logoContainer li {
+  color: #959595;
+}
+
+.logoContainer .strange-image {
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer .strange-image img {
+  height: 160%;
+}
+
+.mycard {
+  text-align: left;
+}
+
+.mycard img {
+  height: 100px;
+}
+

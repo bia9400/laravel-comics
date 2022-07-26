@@ -1,1 +1,71 @@
-//
+li{
+    list-style: none;
+
+    a{
+        color:black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+
+        
+    }
+    & a:hover {
+            border-bottom: 2px solid #0282f9;
+        }
+}
+.jumbo{
+    height: 500px;
+    overflow: hidden;
+   img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+   }
+}
+.myBanner{
+    background-color: #1c1c1c;
+    color:white;
+    img{
+        width: 100%;
+    }
+    
+}
+.current-series{
+    background-color: #0282f9;
+    position: absolute;
+    top:0;
+    transform: translate(-5%,-50%);
+    padding: .6rem 2rem;
+    h3{
+        margin:0;
+    }
+}
+.relative{
+    position:relative;
+}
+.logoContainer {
+    color: white;
+  background-image: url("../../public/images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  li{
+    color: #959595;
+  }
+  .strange-image{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 160%;
+        
+    }
+  }
+}
+.mycard {
+    text-align: left;
+    img{
+        height: 100px;
+    }
+}
