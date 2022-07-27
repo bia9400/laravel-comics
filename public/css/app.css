@@ -1,3 +1,12 @@
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.headerblue {
+  background-color: #0282f9;
+}
+
 li {
   list-style: none;
 }
@@ -11,6 +20,58 @@ li a {
 
 li a:hover {
   border-bottom: 2px solid #0282f9;
+}
+
+.my-container {
+  color: white;
+  max-width: 960px;
+  margin: auto;
+}
+
+.my-container .position-absolute {
+  left: 0;
+  bottom: -20px;
+}
+
+.my-container .myrow {
+  border-top: 1px solid black;
+}
+
+.my-container h2 {
+  color: #003f5e;
+}
+
+.my-container .green-bg {
+  background-color: #55ba59;
+}
+
+.my-container .green-bg a {
+  color: white;
+  text-decoration: none;
+}
+
+.my-container .green-bg span {
+  color: #bafd9c;
+}
+
+.my-container .my-button {
+  bottom: 5%;
+  left: 5%;
+}
+
+.my-container .my-button a {
+  background-color: #ffe665;
+  color: black;
+  bottom: 0;
+}
+
+.my-container .float-text {
+  top: 30%;
+  left: 5%;
+}
+
+.my-container .greyer {
+  background-color: #f6f6f6;
 }
 
 .jumbo {
@@ -53,13 +114,13 @@ li a:hover {
 
 .logoContainer {
   color: white;
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/images/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.logoContainer li {
+.logoContainer li span {
   color: #959595;
 }
 
@@ -70,11 +131,11 @@ li a:hover {
   justify-content: center;
 }
 
-.mycard {
-  text-align: left;
+.logoContainer .strange-image img {
+  height: 115%;
 }
 
-.mycard img {
-  height: 100px;
+.mycard {
+  text-align: left;
 }
 

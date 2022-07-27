@@ -17,3 +17,15 @@ Route::get('/', function () {
     $fumetti=config("comics");
     return view('home',compact("fumetti"));
 });
+
+Route::get('/{id}', function ($id) {
+    $fumetti=config("comics");
+    $fumetto=null;
+    foreach ($fumetti as $key => $value) {
+        if((int)$id===$value["id"]){
+            $fumetto=$value;
+            break;
+        }
+    }
+    return view('show',compact("fumetto"));
+})->name("fumetto");

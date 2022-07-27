@@ -55,6 +55,7 @@
 @endphp
 
 <div class="logoContainer px-5">
+  <div class="container">
     <div class="row ">
       <div class="col">
         <div class="row mt-3">
@@ -65,19 +66,26 @@
           <h3>{{$value["title"]}}</h3>
           <ul class="list-unstyled">
            
-             
-           
+            @php
+                $cicio=$value["valueArray"]
                 
-           
+            @endphp
+                
+           @foreach ($cicio as $item)
+              <li>  <a href="#"><span>  {{$item}}</span></a></li>
+             
+           @endforeach
             
           </ul>
           </div>
 
-           @endforeach
+           @endforeach 
+           
         </div>
       </div>
       <div class="col strange-image">
         <img src="{{asset("images/dc-logo-bg.png")}}" alt="">
       </div>
     </div>
+  </div>
   </div>

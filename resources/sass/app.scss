@@ -1,3 +1,10 @@
+header a{
+text-decoration: none;
+color: white;
+}
+.headerblue{
+    background-color: #0282f9;
+}
 li{
     list-style: none;
 
@@ -12,6 +19,50 @@ li{
     & a:hover {
             border-bottom: 2px solid #0282f9;
         }
+}
+.my-container{
+    color: white;
+    max-width: 960px;
+    margin: auto;
+    .position-absolute{
+        left: 0;
+        bottom: -20px;
+    }
+    .myrow{
+        border-top: 1px solid black;
+        
+
+    }
+    h2{
+        color: #003f5e;
+    }
+    .green-bg{
+        background-color: #55ba59;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        span{
+            color: #bafd9c;
+        }
+    }
+    .my-button{
+        bottom: 5%;
+        left: 5%;
+        a{
+            background-color: #ffe665;
+            color: black;
+            bottom: 0;
+        }
+        
+    }
+    .float-text{
+        top: 30%;
+        left: 5%;
+    }
+    .greyer{
+        background-color: #f6f6f6;
+    }
 }
 .jumbo{
     height: 500px;
@@ -45,11 +96,11 @@ li{
 }
 .logoContainer {
     color: white;
-  background-image: url("../../public/images/footer-bg.jpg");
+  background-image: url("/images/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  li{
+  li span{
     color: #959595;
   }
   .strange-image{
@@ -58,10 +109,11 @@ li{
     display: flex;
     justify-content: center;
     img{
-        height: 160%;
+        height: 115%;
         
     }
   }
+  
 }
 .mycard {
     text-align: left;

@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@extends('layouts.app');
+@section("nomeTitolo","HOME");
 
 @section('page_content')
     <div class="jumbo">
